@@ -1,4 +1,7 @@
-cop-wordpress
-=============
+# COP Wordpress
 
-COP Wordpress repository.
+Repository for [COP Wordpress](http://cop-karate.olymp.in).
+
+## Themes
+
+- [bluecop](./bluecop)
