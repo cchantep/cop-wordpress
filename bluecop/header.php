@@ -177,7 +177,7 @@
                                         // Display our recent posts, showing full content for the very latest, ignoring Aside posts.
 					$flash_categories = get_post_meta($post->ID, 'flash_cat');
 					$flash_cat = (isset($flash_categories) && count($flash_categories) >= 1)
-						? $flash_categories[0] : NULL;
+						? implode(',', $flash_categories) : NULL;
 
                                         $flash_args = array(
                                                 'order' => 'DESC',
