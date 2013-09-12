@@ -2312,6 +2312,7 @@ p.comment-form-comment {
 #ngg-webslice .entry-title {
 	padding-top: 0;
 }
+#ngg-webslice .ngg-widget { width: 225px }
 
 /* Two Footer Widget Areas */
 #supplementary.two .widget-area {
@@ -2478,6 +2479,10 @@ p.comment-form-comment {
 		max-width: 100%;
 	}
 
+}
+@media screen and (max-width: 640px) {
+	#main { padding: 0 !important }
+	#content { margin: 0 1em 0 1em !important }
 }
 @media (max-width: 650px) {
 	/* @media (max-width: 650px) Reduce font-sizes for better readability on smaller devices */
