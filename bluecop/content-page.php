@@ -18,10 +18,6 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'bluecop' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 	<footer class="entry-meta">
-		<div class="entry-social">
-			<div class="gplus"><g:plusone size="normal"></g:plusone></div>
-		</div>
-
 		<?php edit_post_link( __( 'Edit', 'bluecop' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->

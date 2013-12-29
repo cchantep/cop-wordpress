@@ -203,7 +203,7 @@
 							<ul>
 							<?php foreach ($flash->posts as $post) { ?>
 								<li><a href="<?php echo get_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></li>
-							<? } /* end foreach */ ?>
+							<?php } /* end foreach */ ?>
 							</ul>
 						</div>
 					<?php } /* endif */ ?>

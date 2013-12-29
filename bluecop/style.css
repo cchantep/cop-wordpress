@@ -89,17 +89,16 @@ body {
 #branding #twitter-follow,
 #branding #fb-widgets,
 #branding #gbuzz-follow {
-	float: left;
-	margin-left: 1.5em;
+	float: left
 }
 #branding #twitter-follow {
-	width: 30%;
+	margin-left: 1.5em; width: 28%
 }
 #branding #fb-widgets {
 	border: 0;
 	padding: 0;
 	margin: 0;
-	width: 25%;
+	width: 19%;
 }
 #gbuzz-follow #feedburner img {
 	display: block;
@@ -2312,7 +2311,7 @@ p.comment-form-comment {
 #ngg-webslice .entry-title {
 	padding-top: 0;
 }
-#ngg-webslice .ngg-widget { width: 225px }
+#ngg-webslice .ngg-widget { width: 262px }
 
 /* Two Footer Widget Areas */
 #supplementary.two .widget-area {

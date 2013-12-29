@@ -22,10 +22,6 @@
 			<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php bluecop_posted_on(); ?>
-
-				<div class="entry-social">
-					<div class="gplus"><g:plusone size="small" href="<?php the_permalink(); ?>"></g:plusone></div>
-				</div>
 			</div><!-- .entry-meta -->
 			<?php endif; ?>
 

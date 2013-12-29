@@ -25,10 +25,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
-		<div class="entry-social">
-			<div class="gplus"><g:plusone size="normal"></g:plusone></div>
-		</div>
-
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$categories_list = get_the_category_list( __( ', ', 'bluecop' ) );
